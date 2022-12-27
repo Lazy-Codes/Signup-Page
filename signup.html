@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signup</title>
+    <link rel="stylesheet" href="/signup.css">
+    <script src="/Annex Signup/signup.js"></script>
+    
+</head>
+<body>
+    <div class="nav">
+       <div class="login_move"><button class="login_top">login</button></div> 
+    </div>
+    <div class="info">
+        <div class="create_text">
+            <h2>create annex account</h2>
+        </div>
+    </div>
+    <div class="mob_mail">
+        <button type="button" class="btn btn-primary" id="email"><a href="/signup.html">email</a></button>
+        <button type="button" class="btn btn-primary" id="mob"><a href="/mobsignup.html">phone number</a></button>
+    </div><br><br>
+    <div class="form">
+        <div class="form1">
+            <form action="#" method="post">
+                <label for="" class="name">
+                    <b>personal email</b>
+                </label><br>
+                <input type="email" placeholder="email" class="email" required><br><br>
+                <label>
+                    <b>password</b>
+                </label><br>
+                <input type="password" placeholder="password" name="password" class="password" minlength="7" required>
+                <br><br>
+                <input type="checkbox" name="" required><b>i agree to annex terms and conditions</b><br>
+                <input type="checkbox" name="" required><b>i agree to receive marketing updates from Annex</b><br><br>
+                <input type="submit" value="Create Account" class="submit" onclick="registration()" ><br>
+                <div class="or">or</div>
+                <a href="#">
+                    <button class="img-body">
+                        <img src="/img/Google.png" alt="">signup with google
+                    </button>
+                </a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
